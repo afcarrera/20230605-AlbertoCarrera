@@ -1,0 +1,3 @@
+git
+visual studio code
+word
