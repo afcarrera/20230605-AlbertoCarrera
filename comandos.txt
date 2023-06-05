@@ -1,0 +1,27 @@
+  334  git clone https://github.com/afcarrera/20230605-AlbertoCarrera.git
+  335  cd 20230605-AlbertoCarrera/
+  336  touch comandos.txt main.js index.html
+  337  git status
+  338  git add .
+  339  git commit -m "commit 01 de AlbertoCarrera"
+  340  git push
+  341  git checkout -b feature
+  342  mkdir Hardware Software SeguridadInformatica
+  343  ls
+  344  touch Hardware/resumen.txt
+  345  touch Software/resumen.txt
+  346  touch SeguridadInformatica/resumen.txt
+  347  git status
+  348  git add .
+  349  git commit -m "commit 02 de AlbertoCarrera"
+  350  git push --set-upstream origin feature
+  351  git checkout main
+  352  mv main.js resumenHardware.txt
+  353  mv index.html resumenSoftware.txt
+  354  vim resumenSoftware.txt
+  355  vim resumenHardware.txt
+  356  git status
+  357  git add .
+  358  git commit -m "commit 03 de AlbertoCarrera"
+  359  git push
+  360  history
